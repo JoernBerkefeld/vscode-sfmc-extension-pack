@@ -1,0 +1,12 @@
+.vscode/**
+.github/**
+.husky/**
+test/**
+eslint.config.mjs
+.prettierrc
+.prettierignore
+.gitignore
+.npmrc
+package-lock.json
+node_modules/**
+*.vsix
