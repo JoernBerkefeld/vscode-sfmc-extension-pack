@@ -43,7 +43,7 @@
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
         "prepare": "husky || true",
-        "test": "node --test test/**/*.test.mjs",
+        "test": "node --test test/*.test.mjs",
         "vscode:prepublish": "node -e \"require('fs').accessSync('extension.js')\"",
         "package": "npx @vscode/vsce package"
     },
