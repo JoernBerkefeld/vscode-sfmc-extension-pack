@@ -8,11 +8,12 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
 const manifest = JSON.parse(readFileSync(path.join(root, 'package.json'), 'utf8'));
 
-test('extensionPack lists three SFMC extensions in order', () => {
+test('extensionPack lists the SFMC extensions in order', () => {
     assert.deepStrictEqual(manifest.extensionPack, [
         'joernberkefeld.sfmc-data',
         'Accenture-oss.sfmc-devtools-vscode',
         'joernberkefeld.sfmc-language',
+        'joernberkefeld.mso-conditionals',
     ]);
 });
 

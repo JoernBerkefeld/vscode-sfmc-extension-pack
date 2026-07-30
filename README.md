@@ -5,6 +5,7 @@ VS Code **extension pack** that installs these Marketplace extensions together:
 - [SFMC Data Loader](https://marketplace.visualstudio.com/items?itemName=joernberkefeld.sfmc-data) (`joernberkefeld.sfmc-data`)
 - [SFMC DevTools](https://marketplace.visualstudio.com/items?itemName=Accenture-oss.sfmc-devtools-vscode) (`Accenture-oss.sfmc-devtools-vscode`)
 - [SFMC Language Service](https://marketplace.visualstudio.com/items?itemName=joernberkefeld.sfmc-language) (`joernberkefeld.sfmc-language`)
+- [MSO Conditionals](https://marketplace.visualstudio.com/items?itemName=joernberkefeld.mso-conditionals) (`joernberkefeld.mso-conditionals`)
 
 This pack has no code beyond installing those extensions. For ESLint, Prettier, and EditorConfig as well, install **SFMC Extension Pack (Expanded)** from the same publisher.
 

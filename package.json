@@ -1,8 +1,8 @@
 {
     "name": "sfmc-extension-pack",
     "displayName": "SFMC Extension Pack",
-    "description": "Installs Salesforce Marketing Cloud Engagement extensions: SFMC Data Loader, SFMC DevTools, and SFMC Language Service.",
-    "version": "0.1.0",
+    "description": "Installs Salesforce Marketing Cloud Engagement extensions: SFMC Data Loader, SFMC DevTools, SFMC Language Service, and MSO Conditionals.",
+    "version": "0.2.0",
     "publisher": "joernberkefeld",
     "license": "MIT",
     "repository": {
@@ -33,7 +33,8 @@
     "extensionPack": [
         "joernberkefeld.sfmc-data",
         "Accenture-oss.sfmc-devtools-vscode",
-        "joernberkefeld.sfmc-language"
+        "joernberkefeld.sfmc-language",
+        "joernberkefeld.mso-conditionals"
     ],
     "activationEvents": [
         "onStartupFinished"
